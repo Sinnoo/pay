@@ -1,5 +1,5 @@
 <?php
-namespace Pay\Service\Apliy;
+namespace Pay\Service\Alipay;
 
 /*
  * 支付宝转账接口
@@ -7,12 +7,13 @@ namespace Pay\Service\Apliy;
  * date 16/05/18 23:53:55 
  *
  * @songmingshuo
+ *
  */
-
 class Transfer
 {
     protected function execute()
     {
+        echo "sdfsdf";
     }
 
     /*
