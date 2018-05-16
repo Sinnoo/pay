@@ -1,6 +1,7 @@
 {
     "name": "sinnoo/pay",
     "description": "product payment",
+    "license": "proprietary",
     "authors": [
         {
             "name": "宋明硕",
@@ -8,11 +9,17 @@
         }
     ],
     "require": {
-      "php": ">=7.0.0"
+      "php": ">=5.6.10"
     },
     "autoload": {
       "psr-4": {
         "Pay\\": "src/"
       }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }
