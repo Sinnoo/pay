@@ -11,9 +11,11 @@ namespace Pay\Config;
 
 class Alipay
 {
-    protected function account()
-    {
-    }
 
+    public function config()
+    {
+        $config = require_once __DIR__ . '/Config.php';
+        return $config;
+    }
 }
 ?>
